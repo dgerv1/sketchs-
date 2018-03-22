@@ -1,7 +1,8 @@
-function setup(){
-createCanvas(400, 400);
+function setup() {
+  createCanvas(400, 400);
 }
-function draw(){
+
+function draw() {
 fill (mouseX,mouseY,100);
-ellipse(mouseX,mouseY,200,200);
+ellipse(mouseX,mouseY, 50, 50);
 }
